@@ -1,7 +1,9 @@
+import styled from 'styled-components';
+
 const Nav = () => {
   return (
     <div>
-      <p></p>
+      <Logo>Hacker News</Logo>
       <nav>
         <ul>
           <li>about</li>
@@ -11,5 +13,10 @@ const Nav = () => {
     </div>
   )
 }
+
+const Logo = styled.p`
+  font-size: 20px;
+  color: red;
+`
 
 export default Nav;
